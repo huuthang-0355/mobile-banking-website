@@ -1,0 +1,135 @@
+.instruction {
+    margin-top: 160px;
+}
+
+.instruction__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.instruction__media {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    width: 470px;
+    height: 619px;
+}
+
+.instruction__img {
+    width: 97%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.instruction__background {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.instruction__decor {
+    position: absolute;
+    z-index: 1;
+}
+
+.instruction__decor--bank {
+    right: 55px;
+    top: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    background-color: #7264d6;
+    border-radius: 9px;
+}
+
+.instruction__decor--bank .instruction__decor-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 9px;
+}
+
+.instruction__decor--state {
+    right: -100px;
+    bottom: 96px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 226px;
+    height: 70px;
+    border-radius: 8px;
+    background: #fffdfa;
+    box-shadow: 0 14px 34px 0 rgba(0, 0, 0, 0.07);
+}
+
+.instruction__decor-icon-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4ab5e3;
+    border-radius: 8px;
+}
+
+.instruction__decor-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.instruction__decor-content {
+    margin-left: 10px;
+}
+
+.instruction__congratulation {
+    color: #212832;
+    font-family: Inter, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.instruction__state {
+    margin-top: 5px;
+    color: #696d76;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.instruction__heading {
+    margin-top: 12px;
+    width: 294px;
+}
+
+.instruction__sub-list {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.instruction__sub-heading {
+    width: 470px;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1.45; /* 145.455% */
+}
+
+.instruction__sub-desc {
+    margin-top: 16px;
+    width: 470px;
+    font-size: 1.6rem;
+    line-height: 1.75; /* 175% */
+}

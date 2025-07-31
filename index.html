@@ -90,6 +90,12 @@
             href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
             rel="stylesheet"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
 
         <!-- Reset CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
@@ -98,6 +104,7 @@
         <link rel="stylesheet" href="./assets/css/general.css" />
         <link rel="stylesheet" href="./assets/css/header.css" />
         <link rel="stylesheet" href="./assets/css/hero.css" />
+        <link rel="stylesheet" href="./assets/css/instruction.css" />
     </head>
     <body>
         <!-- Header -->
@@ -417,7 +424,9 @@
                                 />
                                 <div class="hero__decor-content">
                                     <p class="hero__content-price">$1.310</p>
-                                    <p class="hero__content-purpose">SECURED FUNDS</p>
+                                    <p class="hero__content-purpose">
+                                        SECURED FUNDS
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -425,5 +434,109 @@
                 </div>
             </div>
         </section>
+
+        <main>
+            <!-- Instruction -->
+            <section class="instruction">
+                <div class="container">
+                    <div class="instruction__inner">
+                        <!-- Media -->
+                        <figure class="instruction__media">
+                            <img
+                                src="./assets/img/instruction-background.png"
+                                alt=""
+                                class="instruction__background"
+                            />
+                            <img
+                                src="./assets/img/instruction-img.png"
+                                alt=""
+                                class="instruction__img"
+                            />
+
+                            <!-- Decoration -->
+                            <div
+                                class="instruction__decor instruction__decor--bank"
+                            >
+                                <img
+                                    src="./assets/icons/bank-decor-instruction.svg"
+                                    alt=""
+                                    class="instruction__decor-icon"
+                                />
+                            </div>
+                            <div
+                                class="instruction__decor instruction__decor--state"
+                            >
+                                <div class="instruction__decor-icon-background">
+                                    <img
+                                        src="./assets/icons/check-decor-instruction.svg"
+                                        alt=""
+                                        class="instruction__decor-icon"
+                                    />
+                                </div>
+
+                                <div class="instruction__decor-content">
+                                    <p class="instruction__congratulation">
+                                        Congratulations
+                                    </p>
+                                    <p class="instruction__state">
+                                        Your account activated
+                                    </p>
+                                </div>
+                            </div>
+                        </figure>
+
+                        <!-- Content -->
+                        <section class="instruction__content">
+                            <p class="instruction__subtitle subtitle">
+                                Digital Smart Wallet
+                            </p>
+                            <h2 class="instruction__heading section-heading">
+                                How It Works
+                            </h2>
+
+                            <ul class="instruction__sub-list">
+                                <li class="instruction__items">
+                                    <h3
+                                        class="instruction__sub-heading section-heading"
+                                    >
+                                        1. Open a High Interest Checking account
+                                    </h3>
+                                    <p class="instruction__sub-desc desc">
+                                        Fund your bank account with a minimum
+                                        balance of $100. Enroll in 3 minutes or
+                                        less!
+                                    </p>
+                                </li>
+                                <li class="instruction__items">
+                                    <h3
+                                        class="instruction__sub-heading section-heading"
+                                    >
+                                        2. 10 point-of-sale transactions each
+                                        Month that are at least $10 each.
+                                    </h3>
+                                    <p class="instruction__sub-desc desc">
+                                        Be sure to use your rewards checking
+                                        account as often as possible in order to
+                                        accue APYI
+                                    </p>
+                                </li>
+                                <li class="instruction__items">
+                                    <h3
+                                        class="instruction__sub-heading section-heading"
+                                    >
+                                        3. Receive up to 5.50% APY
+                                    </h3>
+                                    <p class="instruction__sub-desc desc">
+                                        The APY you earn will be based on your
+                                        account balance and satisfying the
+                                        transaction requirement.
+                                    </p>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

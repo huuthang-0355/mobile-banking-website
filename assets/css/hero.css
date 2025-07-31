@@ -1,0 +1,378 @@
+.hero {
+    margin-top: 76px;
+}
+.hero__inner {
+    display: flex;
+    align-items: center;
+}
+
+.hero__subtitle {
+    position: relative;
+    margin-left: 30px;
+    color: #696d77;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.hero__subtitle::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -30px;
+    width: 18px;
+    height: 2px;
+    background: #696d77;
+}
+
+.hero__heading {
+    width: 500px;
+    margin-top: 12px;
+    color: var(--primary-color);
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.167; /* 116.667% */
+}
+
+.hero__heading-feature {
+    color: #7264d6;
+}
+
+.hero__desc {
+    margin-top: 20px;
+    width: 540px;
+}
+
+.hero__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 8px 8px 8px 23px;
+    width: 540px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 16px 42px 0 rgba(0, 0, 0, 0.07);
+}
+
+.hero__form-email {
+    border: none;
+    padding: 8px 6px;
+    color: #696d76;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.hero__form-btn {
+    min-width: 149px;
+    border: none;
+    background-color: #7264d6;
+}
+
+.hero__form-btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.hero__content-note {
+    color: #696d76;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.714; /* 171.429% */
+    margin-top: 20px;
+}
+
+.hero__media {
+    margin-left: 160px;
+}
+
+.hero__media-container {
+    position: relative;
+    padding: 40px 11px 30px;
+    width: 296px;
+    height: 562px;
+    border-radius: 40px;
+    border: 12px solid #212832;
+    background: #fff;
+}
+
+.hero__media-bank-info {
+    position: relative;
+    padding: 16px;
+    width: 250px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #7264d6;
+    overflow: hidden;
+}
+
+.hero__media-bank-label {
+    position: relative;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 1;
+}
+
+.hero__media-bank-balance {
+    margin-top: 2px;
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero__media-bank-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.hero__media-bank-row--top {
+    margin-top: 32px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero__media-bank-row--bottom {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero__media-bank-type {
+    margin-left: 12px;
+}
+
+.hero__media-bank-owner-name {
+    margin-left: 32px;
+}
+
+.hero__media-bank-info-decor {
+    position: absolute;
+}
+
+.hero__media-bank-info-decor:nth-of-type(1) {
+    left: 1px;
+    bottom: 116px;
+    z-index: 0;
+}
+
+.hero__media-bank-info-decor:nth-of-type(2) {
+    top: 16px;
+    right: 16px;
+    z-index: 0;
+}
+
+.hero__media-bank-info-decor:nth-of-type(3) {
+    top: 54px;
+    right: -5px;
+    z-index: 0;
+}
+
+.hero__transaction {
+    margin-top: 24px;
+}
+
+.hero__media-transaction-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__media-transaction {
+    color: #31456a;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero__transaction-history {
+    margin-top: 28px;
+}
+
+.transaction-list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.transaction-activies {
+    display: flex;
+    align-items: center;
+}
+
+.transactions-icon-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #edf8fc;
+    border-radius: 7px;
+}
+
+.transactions-icon-block--purple {
+    background-color: #f1f0fb;
+}
+
+.transactions-icon-block--red {
+    background: #fbf0f0;
+}
+
+.transactions-icon-block--green {
+    background: #ecf5f4;
+}
+
+.transactions-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.transaction-name-wrap {
+    margin-left: 14px;
+}
+
+.transaction-name {
+    color: #212832;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.transaction-email {
+    margin-top: 6px;
+    color: #696d76;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1; /* 100% */
+}
+
+.transactions-amount-wrap {
+    text-align: right;
+    margin-left: auto;
+}
+
+.transactions-amount {
+    color: #212832;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.transactions-date {
+    margin-top: 6px;
+    color: #696d76;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1; /* 100% */
+}
+
+.hero__media-decor {
+    position: absolute;
+}
+
+.hero__media-decor--top {
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 144px;
+    height: 36px;
+    border-radius: 0 0 18px 18px;
+    background: #3c2f60;
+}
+
+.hero__media-decor--left {
+    top: 99px;
+    left: -112px;
+    display: flex;
+    align-items: center;
+    padding: 14px 10px;
+    width: 174px;
+    height: 46px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.07);
+    z-index: 1;
+}
+
+.hero__decor-deposite {
+    margin-left: 8px;
+    color: #31456a;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.hero__decor-price {
+    margin-left: 19px;
+    color: #4ab5e3;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1; /* 100% */
+}
+
+.hero__media-decor--right {
+    top: 115px;
+    right: -185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #da6464;
+}
+
+.hero__decor-rate {
+    color: #fff;
+    font-size: 4.4rem;
+    font-weight: 600;
+}
+
+.hero__decor-interest {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.hero__media-decor--bottom {
+    bottom: 49px;
+    right: -86px;
+    display: flex;
+    align-items: center;
+    padding: 20px 14px 22px;
+    width: 124px;
+    height: 68px;
+    border-radius: 10px;
+    background: #439f90;
+}
+
+.hero__decor-content {
+    margin-left: 11px;
+}
+
+.hero__content-price {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.hero__content-purpose {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1; /* 100% */
+}

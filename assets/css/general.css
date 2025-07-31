@@ -2,8 +2,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #212832;
+}
+
 html {
     font-size: 62.5%;
+    height: 100000px;
 }
 
 body {
@@ -36,7 +41,7 @@ a {
     min-width: 113px;
     flex-shrink: 0;
     border-radius: 8px;
-    background: #212832;
+    background: var(--primary-color);
     color: #fff;
     text-align: center;
     font-size: 1.6rem;
@@ -48,4 +53,31 @@ a {
 .btn:hover {
     background: #7264d6;
     color: #fff;
+}
+
+.subtitle {
+    position: relative;
+    margin-left: 30px;
+    color: #696d77;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.subtitle::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -30px;
+    width: 18px;
+    height: 2px;
+    background: #696d77;
+}
+
+.desc {
+    color: #696d76;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.67; /* 166.667% */
 }

@@ -106,7 +106,9 @@
         <link rel="stylesheet" href="./assets/css/hero.css" />
         <link rel="stylesheet" href="./assets/css/instruction.css" />
         <link rel="stylesheet" href="./assets/css/feature.css" />
-        <link rel="stylesheet" href="./assets/css/blog.css">
+        <link rel="stylesheet" href="./assets/css/blog.css" />
+        <link rel="stylesheet" href="./assets/css/cta.css" />
+        <link rel="stylesheet" href="./assets/css/footer.css" />
     </head>
     <body>
         <!-- Header -->
@@ -177,7 +179,7 @@
                                 class="hero__form-email"
                                 placeholder="Your email address"
                             />
-                            <button class="hero__form-btn btn">
+                            <button class="hero__form-btn btn" disabled>
                                 Get Started
                             </button>
                         </form>
@@ -830,86 +832,267 @@
                                     </div>
 
                                     <p class="feedback__customer-name">
-                                        Alastair Cook
+                                        Alastair Foaks
                                     </p>
                                     <p class="feedback__customer-position">
-                                        Businessmen
+                                        Software Engineer
                                     </p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <img src="./assets/icons/next-btn.svg" alt="" class="feedback__next">
+                    <img
+                        src="./assets/icons/next-btn.svg"
+                        alt=""
+                        class="feedback__next"
+                    />
                 </div>
             </section>
 
             <!-- Blogs -->
-             <section class="blog">
+            <section class="blog">
                 <div class="container">
                     <div class="blog__row">
                         <section class="blog__title">
                             <p class="blog__subtitle subtitle">Our Blog</p>
-                            <h2 class="blog__heading section-heading">Get The Updates</h2>
-                            <p class="blog__desc desc">Read our blog for the regular updates about us and about our online banking services that may inspire you</p>
+                            <h2 class="blog__heading section-heading">
+                                Get The Updates
+                            </h2>
+                            <p class="blog__desc desc">
+                                Read our blog for the regular updates about us
+                                and about our online banking services that may
+                                inspire you
+                            </p>
                         </section>
                         <a href="#!" class="blog__btn btn">Read All</a>
                     </div>
 
                     <!-- lIst BLOGS -->
-                     <div class="blog__bottom">
+                    <div class="blog__bottom">
                         <ul class="blog__list">
                             <!-- Item 1 -->
                             <article class="blog__item">
                                 <div class="blog__item-media">
-                                    <img src="./assets/img/blog-img-01.png" alt="" class="blog__item-img">
+                                    <img
+                                        src="./assets/img/blog-img-01.png"
+                                        alt=""
+                                        class="blog__item-img"
+                                    />
                                 </div>
                                 <div class="blog__title">
                                     <p class="blog__item-date">July 03, 2022</p>
-                                    <p class="blog__item-heading">Why do you need to open a bank account in online..</p>
-                                    <a href="#!" class="blog__item-cta">Read Blog</a>
+                                    <p class="blog__item-heading">
+                                        Why do you need to open a bank account
+                                        in online..
+                                    </p>
+                                    <a href="#!" class="blog__item-cta"
+                                        >Read Blog</a
+                                    >
                                 </div>
                             </article>
 
                             <!-- Item 2 -->
                             <article class="blog__item">
                                 <div class="blog__item-media">
-                                    <img src="./assets/img/blog-img-02.png" alt="" class="blog__item-img">
+                                    <img
+                                        src="./assets/img/blog-img-02.png"
+                                        alt=""
+                                        class="blog__item-img"
+                                    />
                                 </div>
                                 <div class="blog__title">
                                     <p class="blog__item-date">July 03, 2022</p>
-                                    <p class="blog__item-heading">The benefits that we get from credit card at anytime...</p>
-                                    <a href="#!" class="blog__item-cta">Read Blog</a>
+                                    <p class="blog__item-heading">
+                                        The benefits that we get from credit
+                                        card at anytime...
+                                    </p>
+                                    <a href="#!" class="blog__item-cta"
+                                        >Read Blog</a
+                                    >
                                 </div>
                             </article>
 
                             <!-- Item 3 -->
                             <article class="blog__item">
                                 <div class="blog__item-media">
-                                    <img src="./assets/img/blog-img-03.png" alt="" class="blog__item-img">
+                                    <img
+                                        src="./assets/img/blog-img-03.png"
+                                        alt=""
+                                        class="blog__item-img"
+                                    />
                                 </div>
                                 <div class="blog__title">
                                     <p class="blog__item-date">July 03, 2022</p>
-                                    <p class="blog__item-heading">How to manage your money in online in this busy days...</p>
-                                    <a href="#!" class="blog__item-cta">Read Blog</a>
+                                    <p class="blog__item-heading">
+                                        How to manage your money in online in
+                                        this busy days...
+                                    </p>
+                                    <a href="#!" class="blog__item-cta"
+                                        >Read Blog</a
+                                    >
                                 </div>
                             </article>
-
 
                             <!-- Item 4 -->
                             <article class="blog__item">
                                 <div class="blog__item-media">
-                                    <img src="./assets/img/blog-img-04.png" alt="" class="blog__item-img">
+                                    <img
+                                        src="./assets/img/blog-img-04.png"
+                                        alt=""
+                                        class="blog__item-img"
+                                    />
                                 </div>
                                 <div class="blog__title">
                                     <p class="blog__item-date">July 03, 2022</p>
-                                    <p class="blog__item-heading">Online bank is the best and secure way to save in the future...</p>
-                                    <a href="#!" class="blog__item-cta">Read Blog</a>
+                                    <p class="blog__item-heading">
+                                        Online bank is the best and secure way
+                                        to save in the future...
+                                    </p>
+                                    <a href="#!" class="blog__item-cta"
+                                        >Read Blog</a
+                                    >
                                 </div>
                             </article>
                         </ul>
-                     </div>
+                    </div>
                 </div>
-             </section>
+            </section>
+
+            <!-- CTA -->
+            <article class="cta">
+                <div class="container">
+                    <div class="cta__inner">
+                        <p class="cta__subtitle subtitle">Our App</p>
+                        <h2 class="cta__heading section-heading">
+                            Download the Apps
+                        </h2>
+                        <p class="cta__desc desc">
+                            Download our mobile apps and get started today with
+                            a special online bank and move faster
+                        </p>
+                        <div class="cta__row">
+                            <img
+                                src="./assets/icons/google-play.svg"
+                                alt=""
+                                class="cta__btn-banner"
+                            />
+                            <img
+                                src="./assets/icons/apple-store.svg"
+                                alt=""
+                                class="cta__btn-banner"
+                            />
+                        </div>
+
+                        <!-- Decoration -->
+                        <img
+                            src="./assets/icons/cta-decor.svg"
+                            alt=""
+                            class="cta__decor cta__decor--top-left"
+                        />
+                        <img
+                            src="./assets/icons/cta-decor.svg"
+                            alt=""
+                            class="cta__decor cta__decor--bottom-left"
+                        />
+                        <img
+                            src="./assets/icons/cta-decor.svg"
+                            alt=""
+                            class="cta__decor cta__decor--top-right"
+                        />
+                        <img
+                            src="./assets/icons/cta-decor.svg"
+                            alt=""
+                            class="cta__decor cta__decor--bottom-right"
+                        />
+                    </div>
+                </div>
+            </article>
         </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__main">
+                        <!-- Column 1 -->
+                        <div class="footer__column">
+                            <img
+                                src="./assets/img/logo.svg"
+                                alt=""
+                                class="footer__logo"
+                            />
+                        </div>
+
+                        <!-- Column 2 -->
+                        <div class="footer__column">
+                            <h3 class="footer__column-heading">Sitemap</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">Home</li>
+                                <li class="footer__item">Abouts</li>
+                                <li class="footer__item">Growers</li>
+                                <li class="footer__item">Merchants</li>
+                                <li class="footer__item">Contact</li>
+                            </ul>
+                        </div>
+
+                        <!-- Column 3 -->
+                        <div class="footer__column">
+                            <h3 class="footer__column-heading">Socials</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">Facebook</li>
+                                <li class="footer__item">Linkedin</li>
+                                <li class="footer__item">Instagram</li>
+                                <li class="footer__item">Twitter</li>
+                            </ul>
+                        </div>
+
+                        <!-- Column 4 -->
+                        <div class="footer__column">
+                            <div class="footer__column-top">
+                                <h3 class="footer__column-heading">
+                                    Head Office
+                                </h3>
+                                <p class="footer__column-address">
+                                    Xilliams Corner Wine © 2017. 1112 A Market
+                                    St # Ste B22, Charlottesville, CA 45565
+                                </p>
+                            </div>
+
+                            <div class="footer__column-bottom">
+                                <h3 class="footer__column-heading">
+                                    News letter
+                                </h3>
+                                <form action="" class="footer__form">
+                                    <input
+                                        type="email"
+                                        placeholder="Email address..."
+                                        class="footer__input"
+                                    />
+                                    <button
+                                        type="submit"
+                                        class="footer__btn btn"
+                                        disabled
+                                    >
+                                        Subscribe
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__contact-info">
+                        <p class="footer__email">email@gmail.com</p>
+                        <p class="footer__phone">(123) 456-7890</p>
+                    </div>
+                </div>
+            </div>
+            <!-- copywright -->
+
+            <div class="footer__copywright">
+                <p class="footer__copywright-text">
+                    © 2020 Ligft Media All rights reserved.
+                </p>
+            </div>
+        </footer>
     </body>
 </html>

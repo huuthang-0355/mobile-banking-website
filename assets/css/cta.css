@@ -1,0 +1,78 @@
+.cta {
+    margin-top: 160px;
+    padding-bottom: 100px;
+}
+
+.cta__inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    height: 466px;
+    border-radius: 24px;
+    background: #7264d6;
+}
+
+.cta__subtitle {
+    font-family: "Open Sans";
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.cta__subtitle::before {
+    background: #fff;
+}
+
+.cta__heading {
+    width: 402px;
+    margin-top: 12px;
+    color: #fff;
+}
+
+.cta__desc {
+    margin-top: 18px;
+    width: 435px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.75; /* 175% */
+}
+
+.cta__row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 38px;
+}
+
+.cta__btn-banner:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.cta__decor {
+    position: absolute;
+}
+
+.cta__decor--top-left {
+    top: 49px;
+    left: 112px;
+}
+
+.cta__decor--bottom-left {
+    bottom: 49px;
+    left: 166px;
+}
+
+.cta__decor--top-right {
+    top: 49px;
+    right: 112px;
+}
+
+.cta__decor--bottom-right {
+    bottom: 49px;
+    right: 166px;
+}
